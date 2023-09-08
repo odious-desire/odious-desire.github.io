@@ -2,11 +2,56 @@
 <html>
     <head>
         <title>Odious Desire ~ official band website</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
         <link rel="stylesheet" href="vvstyle.css">
+        <meta
+            property="og:title"
+            content="Odious Desire ~ official band website."
+            />
+            <meta
+            property="og:description"
+            content="Inspired by gory imagery, this vicious-sounding release entitled “The Blood Album” is Vitor Venturin and Rodrigo Carvalho debut, spearheading their brand new band called ODIOUS DESIRE. The album features nine bloodstained tracks that convey tonalities of havoc and carnage along with crimson red beats. It is a bloodbath of percussion-based mixtures of Latin and African rhythms, influenced by House, Electronica, Soul, Metal and Brazilian styles"
+            />
+            <meta property="og:image" content="thumbnail.jpg" />
+            <meta property="og:type" content="blog" />
+            <meta property="og:url" content="http://odious-desire.github.io/" />
+            <meta name="viewport" content="width=device-width, initial-scale=1">
       </head>
-<body>
-    <div class="container">
-        <iframe width="100%" height="666" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1603025133%3Fsecret_token%3Ds-bBSjCm1K1SA&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/vitorventurin" title="Vitor Venturin" target="_blank" style="color: #cccccc; text-decoration: none;">Vitor Venturin</a> · <a href="https://soundcloud.com/vitorventurin/cortisol-11x/s-bBSjCm1K1SA" title="CORTISOL 11X" target="_blank" style="color: #cccccc; text-decoration: none;">CORTISOL 11X</a></div>
-    </div>
-</body>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <img class="header" src="odious-tv.png" alt="image">
+            </div>
+            <div id="soundcloud" class="row">
+                <iframe class="soundcloud" width="100%" height="480" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1610572314%3Fsecret_token%3Ds-AA7ATVi5ivS&color=%23292929&auto_play=true&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/vitorventurin" title="Vitor Venturin" target="_blank" style="color: #cccccc; text-decoration: none;">Vitor Venturin</a> · <a href="https://soundcloud.com/vitorventurin/rtd-m2/s-AA7ATVi5ivS" title="Reason to die (Mastered)" target="_blank" style="color: #cccccc; text-decoration: none;">Reason to die (Mastered)</a></div>
+            </div>
+            <div class="row">
+                <video width="100%" autoplay controls muted>
+                    <source src="odious-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+            </div>
+            <div id="rodape" class="row bg-white">
+                <img class="thumbnail" src="amendoin_rek.gif" alt="image"/>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
+        <script>
+            const thumbnail = document.getElementsByClassName('thumbnail');
+            new simpleParallax(thumbnail, {
+                scale: 0.9,
+                orientation: 'right',
+                transition: 'cubic-bezier(0, 0,  0, 1)'
+            });
+
+            const sc = document.getElementsByClassName('soundcloud');
+            new simpleParallax(sc, {
+                scale: 0.9
+            });
+
+            var video = document.getElementsByTagName('video');
+            new simpleParallax(video);
+        </script>
+    </body>
 </html>

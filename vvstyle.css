@@ -1,15 +1,7 @@
 body {
-    background-color: black;
-  }
+  background: black;
+}
   
-  h1 {
+h1 {
     color: white;
-    margin-left: 20px;
-  }
-  .container { 
-  
-    width: 96%;
-    max-width: 60em;
-    margin: 0 auto;
-    
-  }
+}
