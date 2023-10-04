@@ -10,7 +10,7 @@ body {
 h1 {
   font-size: 3em;
   font-family: Oswald;
-  color: gray;
+  color: rgb(255, 255, 255);
 }
 
 p {
