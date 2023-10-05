@@ -22,6 +22,5 @@ new simpleParallax(parallaxL, {
     scale: 0.8,
 });
         
-var myVideo = document.getElementById("myVideo")
-myVideo.controls = false;
-myVideo.play()
+document.getElementById("myVideo").controls = false;
+document.getElementById("myVideo").play()
