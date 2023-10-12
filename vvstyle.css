@@ -7,6 +7,15 @@ body {
   src: url('./fonts/Oswald-VariableFont_wght.ttf');
 }
 
+.cabecalho {
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
+}
+
+.header {
+  background-color: #330000;
+}
+
 h1 {
   font-size: 3em;
   font-family: Oswald;
