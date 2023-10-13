@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   font-family: Oswald;
   text-align: center;
 }
@@ -45,7 +45,6 @@ p {
 
 #section2 h1 {
   color: black;
-  text-transform: uppercase;
 }
 
 #section3 {
@@ -54,5 +53,5 @@ p {
 
 #section3 h1 {
   color: grey;
-  text-transform: uppercase;
 }
+
