@@ -7,13 +7,16 @@ body {
   src: url('./fonts/Oswald-VariableFont_wght.ttf');
 }
 
-.cabecalho {
+.header img {
   -webkit-filter: invert(100%); /* Safari/Chrome */
   filter: invert(100%);
+  padding: 10px;
+  margin: 10px;
 }
 
 .header {
-  background-color: #330000;
+  background-color: #111111;
+  background-image: url('img/static.jpg')
 }
 
 h1 {
@@ -42,6 +45,7 @@ p {
 
 #section2 h1 {
   color: black;
+  text-transform: uppercase;
 }
 
 #section3 {
@@ -50,4 +54,5 @@ p {
 
 #section3 h1 {
   color: grey;
+  text-transform: uppercase;
 }
