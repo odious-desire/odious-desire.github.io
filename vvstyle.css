@@ -55,3 +55,11 @@ p {
   color: grey;
 }
 
+#section4 {
+  text-align: center;
+}
+
+#section5 h1 {
+  padding-top: 1em;
+  color: white;
+}
